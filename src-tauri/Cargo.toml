@@ -1,0 +1,24 @@
+[package]
+name = "gurain-assistant-pc"
+version = "0.1.0"
+description = "Gurain Assistant PC"
+authors = ["Haomin Kong <a645162@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "gurain_assistant_pc_lib"
+crate-type = ["lib", "cdylib", "staticlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.0.0-rc", features = [] }
+
+[dependencies]
+tauri = { version = "2.0.0-rc", features = [] }
+tauri-plugin-shell = "2.0.0-rc"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# https://github.com/enigo-rs/enigo
+enigo = "0.2.1"
