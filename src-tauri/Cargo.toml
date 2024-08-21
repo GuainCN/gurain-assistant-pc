@@ -1,7 +1,7 @@
 [package]
-name = "gurain-assistant-pc"
+name = "gurain-assistant-rs"
 version = "0.1.0"
-description = "Gurain Assistant PC"
+description = "Gurain Assistant PC(Rust)"
 authors = ["Haomin Kong <a645162@gmail.com>"]
 edition = "2021"
 

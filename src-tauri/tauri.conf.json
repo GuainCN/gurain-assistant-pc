@@ -1,7 +1,7 @@
 {
-  "productName": "gurain-assistant-pc",
+  "productName": "gurain-assistant-rs",
   "version": "0.1.0",
-  "identifier": "com.gurain.assistant.pc",
+  "identifier": "com.gurain.assistant.rs",
   "build": {
     "beforeDevCommand": "pnpm dev",
     "devUrl": "http://localhost:1420",
@@ -11,7 +11,7 @@
   "app": {
     "windows": [
       {
-        "title": "gurain-assistant-pc",
+        "title": "gurain-assistant-rs",
         "width": 800,
         "height": 600
       }
