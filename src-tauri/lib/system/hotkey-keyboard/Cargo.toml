@@ -1,0 +1,10 @@
+[package]
+name = "hotkey-keyboard"
+version = "0.1.0"
+description = "Gurain Assistant Keyboard Simulator"
+authors = ["Haomin Kong <a645162@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+# https://github.com/enigo-rs/enigo
+enigo = "0.2.1"

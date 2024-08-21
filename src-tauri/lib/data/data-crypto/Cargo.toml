@@ -1,0 +1,10 @@
+[package]
+name = "data-crypto"
+version = "0.1.0"
+description = "Gurain Assistant Data Crypto"
+authors = ["Haomin Kong <a645162@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+# https://docs.rs/smcrypto/latest/smcrypto/
+smcrypto = "0.3.1"

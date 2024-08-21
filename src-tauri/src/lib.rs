@@ -1,7 +1,12 @@
+use data_crypto::add;
+use hotkey_keyboard::lib_hello_hotkey_keyboard;
+
 // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
 #[tauri::command]
 fn greet(name: &str) -> String {
-    format!("Hello, {}! You've been greeted from Rust!", name)
+    lib_hello_hotkey_keyboard();
+    
+    format!("Hello, {}! You've been greeted from Rust!{}", name, add(1, 2))
 }
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]

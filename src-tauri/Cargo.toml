@@ -20,5 +20,11 @@ tauri-plugin-shell = "2.0.0-rc"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 
-# https://github.com/enigo-rs/enigo
-enigo = "0.2.1"
+data-crypto = { path = "./lib/data/data-crypto" }
+hotkey-keyboard = { path = "./lib/system/hotkey-keyboard" }
+
+[workspace]
+members = [
+    "lib/data/data-crypto",
+    "lib/system/hotkey-keyboard",
+]
